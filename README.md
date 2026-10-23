@@ -145,5 +145,5 @@ Os componentes de interface e o mecanismo de eventos/cancelamento foram extraíd
 
 ## Licença
 
-<!-- TODO: escolha uma licença (ex.: MIT) e adicione o arquivo LICENSE antes de publicar. -->
-Ainda não definida.
+Este projeto está licenciado sob a licença MIT.
+Consulte o arquivo [LICENSE](LICENSE).
