@@ -1,0 +1,39 @@
+{
+  "name": "desktop-electron-react-python",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Template de aplicativo desktop com Electron, React (Vite) e backend em Python comunicando por eventos JSON.",
+  "type": "module",
+  "main": "electron/main.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vite",
+    "electron": "electron .",
+    "desktop": "concurrently -k -n vite,electron \"npm run dev\" \"wait-on http://localhost:5173 && npm run electron\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "test": "npm run test:js && npm run test:py",
+    "test:js": "node --test \"tests/**/*.test.js\"",
+    "test:py": "node scripts/test-python.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.24.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@vitejs/plugin-react": "^6.0.3",
+    "concurrently": "^10.0.3",
+    "electron": "^43.1.1",
+    "eslint": "^10.6.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.7.0",
+    "vite": "^8.1.1",
+    "wait-on": "^9.0.10"
+  }
+}

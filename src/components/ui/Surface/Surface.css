@@ -1,0 +1,21 @@
+.app-surface {
+
+    background: var(--bg-secondary);
+
+    border: 1px solid var(--border-primary);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow-md);
+
+    transition: var(--transition-normal);
+
+}
+
+.app-surface-hover:hover {
+
+    border-color: var(--primary);
+
+    transform: translateY(-2px);
+
+}

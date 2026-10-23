@@ -1,0 +1,9 @@
+@import "./styles/base/index.css";
+@import "./styles/variables/index.css";
+@import "./styles/globals/index.css";
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-primary);
+    background: var(--bg-primary);
+}

@@ -1,0 +1,62 @@
+:root {
+
+    /* ===============================
+       Brand
+
+       Cor de destaque única. Para variações translúcidas, use
+       color-mix(in srgb, var(--primary) N%, transparent).
+    =============================== */
+
+    --primary: #ff7b00;
+    --primary-hover: #ff9433;
+    --primary-light: #ffb066;
+
+    /* ===============================
+       Background
+    =============================== */
+
+    --bg-primary: #0f1117;
+    --bg-secondary: #181c25;
+    --bg-tertiary: #232938;
+
+    /* ===============================
+       Superfícies (cards/molduras sobre o bg-primary)
+    =============================== */
+
+    --surface: rgba(255, 255, 255, .02);
+
+    --surface-elevated: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, .02),
+        rgba(255, 255, 255, .01)
+    );
+
+    /* ===============================
+       Text
+    =============================== */
+
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --text-disabled: var(--text-muted);
+
+    /* ===============================
+       Border
+
+       Valor alinhado ao que já era usado (sem token) na maioria
+       das telas: borda translúcida branca sobre fundo escuro.
+    =============================== */
+
+    --border-primary: rgba(255, 255, 255, .08);
+    --border-hover: rgba(255, 255, 255, .18);
+
+    /* ===============================
+       Feedback (--danger cobre o papel de "error")
+    =============================== */
+
+    --success: #22c55e;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+    --info: #3b82f6;
+
+}

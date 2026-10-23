@@ -1,0 +1,15 @@
+.app-card {
+  background: var(--bg-secondary);
+
+  border: 1px solid var(--border-primary);
+
+  border-radius: var(--radius-lg);
+
+  padding: var(--space-6);
+
+  transition: var(--transition-normal);
+}
+
+.app-card:hover {
+  border-color: var(--primary);
+}
